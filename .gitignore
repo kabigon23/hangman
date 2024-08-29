@@ -1,0 +1,83 @@
+# Byte-compiled 파일들
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 환경 설정 파일들
+.env
+*.env
+*.venv
+venv/
+ENV/
+env/
+.venv/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 운영체제에 의해 생성된 파일들
+.DS_Store
+Thumbs.db
+
+# 설치된 패키지
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 테스트 커버리지, 프로파일링 데이터
+coverage.xml
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy 타입 검사 결과
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 파이썬 버전 관리 시스템 (pyenv)
+.python-version
+
+# 빌드 파일들
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Sphinx 문서화 빌드 결과
+docs/_build/
+
+# pytest 캐시 디렉토리
+.cache/
+
+# PyInstaller 
+# PyInstaller에서 만든 바이너리 실행파일 및 dist 폴더
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# 파이썬 가상 환경들
+venv/
+ENV/
+env/
+.venv/
+ENV/
+
+# 배포 패키지
+*.egg
+*.egg-info/
+dist/
+build/
