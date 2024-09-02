@@ -22,6 +22,7 @@ class Hangman:
             margins=(100, 100),
         )
         self._canvas = self._window["-CANVAS-"]
+        self._draw_scaffold()
 
     def read_event(self):
         event = self._window.read()
@@ -121,6 +122,17 @@ class Hangman:
             ],
             font="Any 20",
         )
+
+    def _draw_scaffold(self):
+        lines = [
+            ((40, 55), (180, 55), 10),
+            ((165, 60), (165, 365), 10),
+            ((160, 360), (100, 360), 10),
+            ((100, 365), (100, 330), 10),
+            ((100, 330), (100, 310), 1),
+        ]
+        for *points, width in lines:
+            self._canvas.DrawLine(*points, color="black", width=width)
 
 if __name__ == "__main__":
     game = Hangman()
