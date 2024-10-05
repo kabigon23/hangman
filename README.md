@@ -22,7 +22,7 @@ A simple graphical Hangman game built using PyQt5. In this game, you guess lette
    ```bash
    git clone <repository-url>
    ```
-2.Navigate into the project directory:
+2. Navigate into the project directory:
    ```bash
    cd hangman
    ```
