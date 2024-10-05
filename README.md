@@ -20,7 +20,7 @@ A simple graphical Hangman game built using PyQt5. In this game, you guess lette
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone "https://github.com/kabigon23/hangman.git"
    ```
 2. Navigate into the project directory:
    ```bash
